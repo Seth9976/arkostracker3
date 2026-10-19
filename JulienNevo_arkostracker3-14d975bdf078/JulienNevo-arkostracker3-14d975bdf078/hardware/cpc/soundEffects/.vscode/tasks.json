@@ -1,0 +1,39 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildRasm",
+            "group": "build",
+            "command": "rasm",
+            "type": "shell",
+            "args": [
+                "-ob", "generated/main.bin",
+
+                // Generates snapshots.
+                "-sb",
+                "-ss",
+                "-oi", "generated/soundEffects.sna",
+
+                "-sw",
+                "-sa",
+                "-os", "generated/symbols.txt",
+        
+                "-twe",
+        
+                "-xr",
+                "sources/main.asm"
+                //"sources/tester/SoundEffectsTester_CPC.asm"
+                //"sources/tester/SoundEffectsTester_MSX.asm"
+                //"sources/tester/SoundEffectsTester_SPECTRUM_PENTAGON.asm"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "clear": true,
+                "showReuseMessage": false,
+            },
+            "problemMatcher": "$errmatcher-rasm"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+The installation of Arkos Tracker is going to proceed. Sit tight, everything is under control.

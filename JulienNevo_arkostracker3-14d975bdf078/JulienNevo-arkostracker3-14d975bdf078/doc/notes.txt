@@ -1,0 +1,4 @@
+If cannot build on Mac Sonoma with Juce 7.0.12:
+https://github.com/juce-framework/JUCE/commit/c9d95e7c29052e387cf7a298d0f6152f606d5faf
+
+A method doesn't exist anymore, but is not used. Maybe there's a fork somewhere of the git 7.0.12? Can CPM reach it?

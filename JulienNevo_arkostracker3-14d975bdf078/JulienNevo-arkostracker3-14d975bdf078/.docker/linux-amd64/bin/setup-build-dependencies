@@ -1,0 +1,56 @@
+#!/usr/bin/env bash -euo pipefail
+
+# Install build dependencies
+curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | apt-key add -
+apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ noble main'
+apt-get update
+apt-get install -y \
+	software-properties-common \
+	libasound2-dev \
+	libjack-jackd2-dev \
+	ladspa-sdk \
+	libfreetype6-dev \
+	libx11-dev \
+	libxcomposite-dev \
+	libxcursor-dev \
+	libxcursor-dev \
+	libxext-dev \
+	libxinerama-dev \
+	libxrandr-dev \
+	libxrender-dev \
+	libglu1-mesa-dev \
+	mesa-common-dev \
+	upx-ucl
+
+# Create a new user with the same UID/GID as the host to
+# avoid file-permission issues with the mounted volume
+
+# Sanity check
+if [[ "$#" -ne 2 ]]; then
+	echo "ERROR: Wrong number of arguments: only provide both UID and GID."
+	exit 1
+fi
+
+# Get UID/GID arguments
+USER_ID=$1
+GROUP_ID=$2
+# Sanity check
+if [[ "$USER_ID" -lt 1000 ]] || [[ "$GROUP_ID" -lt 1000 ]]; then
+	echo "ERROR: both UID($USER_ID) and GID($GROUP_ID) must be >= 1000."
+	exit 1
+fi
+# Create group if necessary
+GROUP_NAME=$(id -ng $GROUP_ID) 2> /dev/null;
+if [ $? -gt 0 ]; then
+  GROUP_NAME="arkostracker";
+  addgroup --gid "${GROUP_ID}" "${GROUP_NAME}"
+fi
+# Create user if necessary
+USER_NAME=$(id -nu $USER_ID) 2> /dev/null;
+if [ $? -gt 0 ]; then
+  USER_NAME="arkostracker";
+  adduser --uid "${USER_ID}" --ingroup "${GROUP_NAME}" "${USER_NAME}"
+fi
+
+# Install CircleCI-CLI to provide .circleci/config.yml validation
+curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/main/install.sh | bash

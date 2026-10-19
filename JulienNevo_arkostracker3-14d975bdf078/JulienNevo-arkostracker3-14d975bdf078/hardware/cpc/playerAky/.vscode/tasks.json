@@ -1,0 +1,101 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "group": "build",
+            "command": "rasm",
+            "type": "shell",
+            "args": [
+                "-ob", "generated/main.bin",
+
+                // Generates snapshots. Remove this if building a non-CPC project, else RASM complains.
+                "-sb",
+                "-ss",
+                "-oi", "generated/sna.sna",
+
+                "-sw",
+                "-sa",
+                "-os", "generated/symbols.txt",
+        
+                "-twe",
+
+                "-eo",  // Overwrite files in the EDSK.
+        
+                "-xr",
+
+                //"sources/sid.asm"
+                //"sources/sidPlus.asm"
+                "sources/tester/PlayerAkySidTester_CPC.asm"
+                //"sources/main.asm"
+                //"sources/tester/PlayerAkySampleTester_CPC.asm"
+                //"sources/tester/PlayerAkySampleTester_MSX.asm"
+                //"sources/tester/PlayerAkySampleTester_SPECTRUM.asm"
+                //"sources/tester/PlayerAkyDigidrumsTester_CPC.asm"
+                //"sources/tester/PlayerAkyDigidrumsTester_MSX.asm"
+                //"sources/tester/PlayerAkyDigidrumsTester_SPECTRUM.asm"
+                //"sources/tester/PlayerAkyTester_CPC.asm"
+                //"sources/tester/PlayerAkyTester_MSX.asm"
+                //"sources/tester/PlayerAkyTester_SPECTRUM.asm"
+                //"sources/tester/PlayerAkyTester_PENTAGON.asm"
+                //"sources/tester/PlayerAkyTester_PCW.asm"
+                //"sources/tester/PlayerAkyTester6Channels_Darky_MSX.asm"
+                //"sources/tester/PlayerAkyTester6Channels_FPGAPSG_MSX.asm"
+                //"sources/tester/PlayerAkyTester6Channels_TurboSound_SPECTRUM.asm"
+                //"sources/tester/PlayerAkyTester6Channels_TurboSound_PCW.asm"
+                //"sources/tester/PlayerAkyTester9Channels_PlayCity_CPC.asm"
+                //"sources/tester/PlayerAkyTester9Channels_SPECNEXT.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_CPC.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_MSX.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_FPGAPSG_MSX.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_SPECTRUM_PENTAGON.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_PCW.asm"
+                //"sources/tester/PlayerAkyWithSoundEffectTester_TurboSound_PCW.asm"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "clear": true,
+                "showReuseMessage": false,
+            },
+            "problemMatcher": "$errmatcher-rasm"
+        },
+        {
+            "label": "sendSnaToCpc",
+            "dependsOn": [
+                "build"
+            ],
+            "group": "build",
+            "command": "xfer",
+            "type": "shell",
+            "args": [
+                "-u", "192.168.1.98",
+                "generated/sna.sna",
+                "/Library"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "clear": true,
+                "showReuseMessage": false,
+            }
+        },
+        {
+            "label": "resetCpcAfterSendSna",
+            "dependsOn": [
+                "sendSnaToCpc"
+            ],
+            "group": "build",
+            "command": "xfer",
+            "type": "shell",
+            "args": [
+                "-s", "192.168.1.98",
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "clear": true,
+                "showReuseMessage": false,
+            }
+        }
+    ]
+}

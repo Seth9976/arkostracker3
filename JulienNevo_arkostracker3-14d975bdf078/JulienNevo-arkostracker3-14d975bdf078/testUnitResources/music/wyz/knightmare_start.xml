@@ -1,0 +1,4771 @@
+<?xml version="1.0"?>
+<Song xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MutedChannels>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </MutedChannels>
+  <Name>Canción Nueva</Name>
+  <Patterns>
+    <Pattern>
+      <Name>Nuevo</Name>
+      <Length>192</Length>
+      <Lines>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument>8</Instrument>
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument>8</Instrument>
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument>8</Instrument>
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>67</Note>
+              <Seminote>43</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>67</Note>
+              <Seminote>43</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>66</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>71</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>67</Note>
+              <Seminote>43</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>71</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>66</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>67</Note>
+              <Seminote>43</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>67</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>67</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>71</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>67</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>67</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>68</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>65</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>68</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>67</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>68</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>3</Octave>
+              <Note>70</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>5</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>4</Octave>
+              <Note>71</Note>
+              <Seminote>43</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>2</Octave>
+              <Note>69</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>80</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+        <ChannelLine>
+          <Notes>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+            <ChannelNote>
+              <Octave>-2147483648</Octave>
+              <Note>0</Note>
+              <Seminote>0</Seminote>
+              <Instrument />
+            </ChannelNote>
+          </Notes>
+          <Fx>-2147483648</Fx>
+          <Channels>3</Channels>
+        </ChannelLine>
+      </Lines>
+      <Channels>3</Channels>
+    </Pattern>
+  </Patterns>
+  <PlayOrder>
+    <int>0</int>
+  </PlayOrder>
+  <Tempo>2</Tempo>
+  <Channels>3</Channels>
+  <Instruments>
+    <Instrument>
+      <ID>R</ID>
+      <Name>Sawtooth</Name>
+      <Looped>false</Looped>
+      <LoopStart>0</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>1</ID>
+      <Name>Piano -1</Name>
+      <Volumes>Lg0MCwoJCA==</Volumes>
+      <Looped>true</Looped>
+      <LoopStart>6</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>2</ID>
+      <Name>Inc vol piano -1</Name>
+      <Volumes>KAgICAkJCQkJCgoKCgoLCwsLCwwMDAwMDQ0NDQ0ODg==</Volumes>
+      <Looped>true</Looped>
+      <LoopStart>30</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>3</ID>
+      <Name>Eco 1 piano -1</Name>
+      <Volumes>LQwLCgk=</Volumes>
+      <Looped>false</Looped>
+      <LoopStart>0</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>4</ID>
+      <Name>Eco 2 piano -1</Name>
+      <Volumes>KgkJCAg=</Volumes>
+      <Looped>false</Looped>
+      <LoopStart>0</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>5</ID>
+      <Name>Eco 3 piano -1</Name>
+      <Volumes>KQgIBwY=</Volumes>
+      <Looped>false</Looped>
+      <LoopStart>0</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>6</ID>
+      <Name>Techno +1</Name>
+      <Volumes>RgUEBAUFBAQ=</Volumes>
+      <Looped>true</Looped>
+      <LoopStart>7</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>7</ID>
+      <Name>Trompeta</Name>
+      <Volumes>DA0NDg4NDAsKCQg=</Volumes>
+      <Looped>true</Looped>
+      <LoopStart>10</LoopStart>
+    </Instrument>
+    <Instrument>
+      <ID>8</ID>
+      <Name>Piano</Name>
+      <Volumes>Dg0MCwoJCA==</Volumes>
+      <Looped>true</Looped>
+      <LoopStart>6</LoopStart>
+    </Instrument>
+  </Instruments>
+  <Effects>
+    <Effect>
+      <ID>0</ID>
+      <Name>bass drum</Name>
+      <Volumes>Dww=</Volumes>
+      <Noises>AAA=</Noises>
+      <Frequencies>
+        <int>907</int>
+        <int>1698</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>1</ID>
+      <Name>drum</Name>
+      <Volumes>Dgs=</Volumes>
+      <Noises>AAw=</Noises>
+      <Frequencies>
+        <int>744</int>
+        <int>1280</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>2</ID>
+      <Name>hithat</Name>
+      <Volumes>DQ==</Volumes>
+      <Noises>AQ==</Noises>
+      <Frequencies>
+        <int>0</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>3</ID>
+      <Name>bass drum vol 2</Name>
+      <Volumes>CQYD</Volumes>
+      <Noises>AAAA</Noises>
+      <Frequencies>
+        <int>954</int>
+        <int>1536</int>
+        <int>2210</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>4</ID>
+      <Name>Hit hat 2</Name>
+      <Volumes>CQ==</Volumes>
+      <Noises>BQ==</Noises>
+      <Frequencies>
+        <int>0</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>5</ID>
+      <Name>Bongo 1</Name>
+      <Volumes>Dw4NDA==</Volumes>
+      <Noises>AAAAAA==</Noises>
+      <Frequencies>
+        <int>442</int>
+        <int>488</int>
+        <int>512</int>
+        <int>581</int>
+      </Frequencies>
+    </Effect>
+    <Effect>
+      <ID>6</ID>
+      <Name>Bongo 2</Name>
+      <Volumes>Dw4NDA==</Volumes>
+      <Noises>AAAAAA==</Noises>
+      <Frequencies>
+        <int>581</int>
+        <int>698</int>
+        <int>814</int>
+        <int>1000</int>
+      </Frequencies>
+    </Effect>
+  </Effects>
+</Song>

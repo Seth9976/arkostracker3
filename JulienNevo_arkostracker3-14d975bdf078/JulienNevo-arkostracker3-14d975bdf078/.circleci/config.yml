@@ -1,0 +1,466 @@
+# CMake installed with the help of https://github.com/Toxe/example-cpp-ci-project/tree/master/.circleci
+
+# NOTE: Jobs including TUs are too long (more than one hour!), CircleCi stops!!
+# So test must be called independently using a build type :(.
+# TO IMPROVE: Windows TUs won't run fully (crash, no idea why). Oh, well.
+
+orbs:
+  win: circleci/windows@4.1.1
+  macos: circleci/macos@2.2.0
+
+version: 2.1
+
+parameters:
+  build_type:
+    type: enum
+    enum: [ linux64, linux64_tests, linux_arm64, macos, macos_tests, windows_zip, windows_nsis ]
+    default: linux64
+  upload:
+    type: boolean
+    default: true
+
+jobs:
+  build-linux64:
+    docker:
+      - image: cimg/base:stable    # See https://circleci.com/developer/images/image/cimg/base
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          # The "kitware" lines are needed to get, at least, the latest CMake version, else the one in the image is too old.
+          # The echo to BASH_ENV is a trick to pass variables among steps. Seems not useful on Mac only.
+          command: |
+            tempProjectVersion="$(cat ProjectVersion.txt)"
+            sudo apt-get update
+            sudo apt-get install -y software-properties-common
+            curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+            sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+            sudo apt-get update
+            sudo apt-get install -y cmake g++-10 libstdc++-10-dev \
+                libasound2-dev libjack-jackd2-dev \
+                ladspa-sdk \
+                libfreetype6-dev \
+                libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+                libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+                libglu1-mesa-dev mesa-common-dev \
+                rpm
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp cpack/usedConfig_zip.template.cmake cpack/usedConfig.cmake
+            cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' .
+      #- run:
+      #    name: "Build main project and tools"
+      #    command: |
+      #      cmake --build . --target <<pipeline.parameters.targets>>
+      - run:
+          name: "Build and package ZIP"
+          command: |
+            cmake --build . --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload ZIP artefact"
+                path: ArkosTracker.zip
+                destination: ArkosTracker-linux64.zip
+
+      - run:
+          # Contrary to Windows, this works without having to --fresh!
+          name: "Build and package DEB and RPM"
+          command: |
+            cp cpack/usedConfig_not_zip.template.cmake cpack/usedConfig.cmake
+            cmake --build . --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload DEB artefact"
+                path: ArkosTracker.deb
+                destination: ArkosTracker-linux64.deb
+            - store_artifacts:
+                name: "Upload RPM artefact"
+                path: ArkosTracker.rpm
+                destination: ArkosTracker-linux64.rpm
+
+  build-linux64-tests:
+    docker:
+      - image: cimg/base:2024.01-20.04
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y software-properties-common
+            curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+            sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+            sudo apt-get update
+            sudo apt-get install -y cmake g++-10 libstdc++-10-dev \
+                libasound2-dev libjack-jackd2-dev \
+                ladspa-sdk \
+                libfreetype6-dev \
+                libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+                libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+                libglu1-mesa-dev mesa-common-dev \
+                rpm
+      - run:
+          name: "Create CMake project for test units"
+          command: cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' .
+      - run:
+          name: "Build test units"
+          command: cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+
+  build-linux-arm64:
+    machine:
+      image: ubuntu-2004:current    # Using 2004 because it contains libssl. The 2204 does not.
+    resource_class: arm.medium
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          # The "kitware" lines are needed to get, at least, the latest CMake version, else the one in the image is too old.
+          # The echo to BASH_ENV is a trick to pass variables among steps. Seems not useful on Mac only.
+          command: |
+            tempProjectVersion="$(cat ProjectVersion.txt)"
+            sudo apt-get update
+            sudo apt-get install -y software-properties-common
+            curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+            sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+            sudo apt-get update
+            sudo apt-get install -y cmake g++-10 libstdc++-10-dev \
+                libasound2-dev libjack-jackd2-dev \
+                ladspa-sdk \
+                libfreetype6-dev \
+                libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+                libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+                libglu1-mesa-dev mesa-common-dev \
+                rpm
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp cpack/usedConfig_zip.template.cmake cpack/usedConfig.cmake
+            cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' .
+      #- run:
+      #    name: "Build main project and tools"
+      #    command: |
+      #      cmake --build . --target <<pipeline.parameters.targets>>
+      - run:
+          name: "Build and package ZIP"
+          command: |
+            cmake --build . --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload ZIP artefact"
+                path: ArkosTracker.zip
+                destination: ArkosTracker-linux64arm.zip
+
+      - run:
+          # Contrary to Windows, this works without having to --fresh!
+          name: "Build and package DEB and RPM"
+          command: |
+            cp cpack/usedConfig_not_zip.template.cmake cpack/usedConfig.cmake
+            cmake --build . --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload DEB artefact"
+                path: ArkosTracker.deb
+                destination: ArkosTracker-linux64arm.deb
+            - store_artifacts:
+                name: "Upload RPM artefact"
+                path: ArkosTracker.rpm
+                destination: ArkosTracker-linux64arm.rpm
+
+  # FIX ME cannot make Linux32 work.
+  #build-linux32:
+  #  docker:
+  #    - image: debian:stable@sha256:599b602d81f79d9179e0a64d31c004914781259ef236f0ddde3d3598d9497a84
+  #  environment:
+  #    CC: gcc-10
+  #    CXX: g++-10
+  #  steps:
+  #    - checkout
+  #    - run:
+  #        name: Installing SUDO
+  #        command: 'apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*'
+  #    - run:
+  #        name: Installing GCC
+  #        command: 'apt-get update && apt-get install -y gcc'
+  #    - run: # FIX ME gpg: no valid OpenPGP data found.
+  #        #https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line
+  #        name: Install CMAKE
+  #        command: |
+  #          sudo apt install -y gnupg gnupg2
+  #          wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
+  #          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6494C6D6997C215E
+  #          sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
+  #          sudo apt update
+  #          sudo apt install cmake
+  #    - run:
+  #        name: "Install software"
+  #        command: |
+  #          sudo apt-get update
+  #          sudo apt-get install -y cmake \
+  #              libasound2-dev libjack-jackd2-dev \
+  #              ladspa-sdk \
+  #              libfreetype6-dev \
+  #              libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+  #              libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+  #              libglu1-mesa-dev mesa-common-dev
+  #    #- run:
+  #    #    name: "Create CMake project for test units"
+  #    #    command: cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' .
+  #    #- run:
+  #    #    name: "Build test units"
+  #    #    command: cmake --build . --config Debug --target TestUnits
+  #    #- run:
+  #    #    name: "Run test units"
+  #    #    command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+  #    #    # ORIGINAL COMMAND from Clion: /home/julien/Documents/dev/at3/repo/arkostracker3/cmake-build-debug/testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+  #    - run:
+  #        name: "Create CMake project"
+  #        command: |
+  #          cp ./cpack/usedConfig_zip.template.cmake ./cpack/usedConfig.cmake
+  #          cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' .
+  #    - run:
+  #        name: "Build main project and tools"
+  #        command: cmake --build . --target <<pipeline.parameters.targets>>
+  #    - run:
+  #        # Note: the usedConfig file is copied above, as it is needed to create the project.
+  #        name: "Package and upload ZIP"
+  #        command: |
+  #          cmake --build . --target package
+  #          python3 ./ci/upload.py $FTP_URL $FTP_PATH_RELEASE_LINUX32 $FTP_LOGIN $FTP_PASSWORD \
+  #                      './source/MainSoftware_artefacts/Release/ArkosTracker.zip' ArkosTracker-<<pipeline.parameters.version>>.zip
+  #    - run:
+  #        name: "Package DEB and RPM and upload to FTP"
+  #        command: |
+  #          cp ./cpack/usedConfig_not_zip.template.cmake ./cpack/usedConfig.cmake
+  #          cmake --build . --target package
+  #          python3 ./ci/upload.py $FTP_URL $FTP_PATH_RELEASE_LINUX32 $FTP_LOGIN $FTP_PASSWORD \
+  #          './source/MainSoftware_artefacts/Release/ArkosTracker.deb' ArkosTracker-<<pipeline.parameters.version>>.deb
+  #          python3 ./ci/upload.py $FTP_URL $FTP_PATH_RELEASE_LINUX32 $FTP_LOGIN $FTP_PASSWORD \
+  #                      './source/MainSoftware_artefacts/Release/ArkosTracker.rpm' ArkosTracker-<<pipeline.parameters.version>>.rpm
+
+
+  build-mac:
+    macos:
+      xcode: 16.4.0   # See https://circleci.com/docs/using-macos
+    environment:
+      CC: clang
+      CXX: clang++
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: brew install cmake llvm      # https://formulae.brew.sh/formula/llvm
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp ./cpack/usedConfig_zip.template.cmake ./cpack/usedConfig.cmake
+            cmake -G Xcode .
+      #- run:
+      #    name: "Build main project and tools"
+      #    command: |
+      #      cmake --build . --config Release --target <<pipeline.parameters.targets>>
+      - run:
+          name: "Build and package ZIP"
+          command: cmake --build . --config Release --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload ZIP artefact"
+                path: ArkosTracker.zip
+                destination: ArkosTracker-macosx.zip
+
+            # FIXME PKG works but no main EXE! (CLI tools are present)
+            #- run:
+            #    name: "Package and upload PKG"
+            #    command: |
+            #      cp ./cpack/usedConfig_not_zip.template.cmake ./cpack/usedConfig.cmake
+            #      cmake --build . --config Release --target package
+            #      ./.circleci/upload.sh ArkosTracker.pkg ArkosTracker-<<pipeline.parameters.build_type>>-<<pipeline.parameters.version>>.pkg
+
+  build-mac-tests:
+    macos:
+      xcode: 16.4.0   # See https://circleci.com/docs/using-macos
+    environment:
+      CC: clang
+      CXX: clang++
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: brew install cmake llvm
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp ./cpack/usedConfig_zip.template.cmake ./cpack/usedConfig.cmake
+            cmake -G Xcode .
+      - run:
+          name: "Build test units"
+          command: cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+
+
+
+
+  # This is a copy/paste of what is below, with ZIP.
+  build-windows-zip:
+    executor: win/default
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: choco install -y --no-progress cmake nsis
+      # Not using the latest VS17 2022, because the user won't probably have it, will have to install the right redistributable.
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp .\cpack\usedConfig_zip.template.cmake .\cpack\usedConfig.cmake
+            C:\Program` Files\CMake\bin\cmake -G 'Visual Studio 16 2019' -A Win32 .
+      #- run:
+      #    name: "Build main project and tools"
+      #    command: C:\Program` Files\CMake\bin\cmake --build . --config Release --target <<pipeline.parameters.targets>>
+      - run:
+          name: "Build and package ZIP"
+          command: |
+            C:\Program` Files\CMake\bin\cmake --build . --config Release --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload ZIP artefact"
+                path: ArkosTracker.zip
+                destination: ArkosTracker-windows.zip
+
+  # This is a copy/paste of the above, with NSIS.
+  build-windows-nsis:
+    executor: win/default
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: choco install -y --no-progress cmake nsis
+      # Not using the latest VS17 2022, because the user won't probably have it, will have to install the right redistributable.
+      - run:
+          name: "Create CMake project"
+          command: |
+            cp .\cpack\usedConfig_not_zip.template.cmake .\cpack\usedConfig.cmake
+            C:\Program` Files\CMake\bin\cmake -G 'Visual Studio 16 2019' -A Win32 .
+      #- run:
+      #    name: "Build main project and tools"
+      #    command: C:\Program` Files\CMake\bin\cmake --build . --config Release --target <<pipeline.parameters.targets>>
+      - run:
+          name: "Package NSIS"
+          command: |
+            C:\Program` Files\CMake\bin\cmake --build . --config Release --target package
+      - when:
+          condition: <<pipeline.parameters.upload>>
+          steps:
+            - store_artifacts:
+                name: "Upload NSIS artefact"
+                path: ArkosTracker.exe
+                destination: ArkosTracker-windows-installer.exe
+
+
+  # The tests crash in Windows, no idea why. Anyway, not that important, Linux and Mac are already tested.
+#  build-windows-tests:
+#    executor: win/default
+#    steps:
+#      - checkout
+#      - run:
+#          name: "Install software"
+#          command: choco install -y --no-progress cmake
+#      # Not using the latest VS17 2022, because the user won't probably have it, will have to install the right redistributable.
+#      - run:
+#          name: "Create CMake project"
+#          command: |
+#            cp .\cpack\usedConfig_zip.template.cmake .\cpack\usedConfig.cmake
+#            C:\Program` Files\CMake\bin\cmake -G 'Visual Studio 16 2019' -A Win32 .
+#      - run:
+#          name: "Build test units"
+#          command: C:\Program` Files\CMake\bin\cmake --build . --config Debug --target TestUnits
+#      - run:
+#          name: "Run test units"
+#          command: testUnits\TestUnits_artefacts\Debug\TestUnits -r xml -d yes --order lex
+
+
+workflows:
+  linux64:
+    when:
+      equal: [ linux64, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-linux64
+
+  linux64_tests:
+    when:
+      equal: [ linux64_tests, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-linux64-tests
+
+  linux_arm64:
+    when:
+      equal: [ linux_arm64, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-linux-arm64
+
+  macos:
+    when:
+      equal: [ macos, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-mac
+
+  macos_tests:
+    when:
+      equal: [ macos_tests, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-mac-tests
+
+  windows_zip:
+    when:
+      equal: [ windows_zip, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-windows-zip
+
+  windows_nsis:
+    when:
+      equal: [ windows_nsis, << pipeline.parameters.build_type >> ]
+    jobs:
+      - build-windows-nsis
+
+#  windows_tests:
+#    when:
+#      equal: [ windows_tests, << pipeline.parameters.build_type >> ]
+#    jobs:
+#      - build-windows-tests
+
+        #build-all:
+        #  jobs:
+        #    - build-linux64
+        #- build-linux32
+        #- build-windows
+        #    requires:
+        #    - build-linux
+        #- build-mac
+      #  requires:
+      #    - build-windows

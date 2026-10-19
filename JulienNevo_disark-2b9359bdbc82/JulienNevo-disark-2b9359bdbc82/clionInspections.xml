@@ -1,0 +1,22 @@
+<profile version="1.0">
+  <option name="myName" value="Project Default" />
+  <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+    <option name="clangTidyChecks" value="*,-android-*,-bugprone-easily-swappable-parameters,-llvm-header-guard,-llvmlibc-inline-function-decl" />
+  </inspection_tool>
+  <inspection_tool class="Clazy" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="ConstantParameter" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CppParameterNamesMismatch" enabled="false" level="HINT" enabled_by_default="false" />
+  <inspection_tool class="Misra" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+    <option name="myMisraCPPChecks" value="clion-misra-cpp2008-*,-clion-misra-cpp2008-4-5-2,-clion-misra-cpp2008-8-0-1,-clion-misra-cpp2008-10-3-2,-clion-misra-cpp2008-18-4-1,-clion-misra-cpp2008-8-5-3,-clion-misra-cpp2008-0-1-7,-clion-misra-cpp2008-6-6-5,-clion-misra-cpp2008-6-4-6,-clion-misra-cpp2008-6-6-4,-clion-misra-cpp2008-6-4-5,-clion-misra-cpp2008-6-4-2,-clion-misra-cpp2008-6-4-1,-clion-misra-cpp2008-5-18-1" />
+  </inspection_tool>
+  <inspection_tool class="OCInconsistentNaming" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoredErrors">
+      <list>
+        <option value="N802" />
+        <option value="N806" />
+        <option value="N803" />
+      </list>
+    </option>
+  </inspection_tool>
+</profile>

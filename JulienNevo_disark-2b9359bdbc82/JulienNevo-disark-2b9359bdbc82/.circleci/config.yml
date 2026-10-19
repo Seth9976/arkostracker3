@@ -1,0 +1,193 @@
+# CMake installed with the help of https://github.com/Toxe/example-cpp-ci-project/tree/master/.circleci
+
+orbs:
+  win: circleci/windows@4.1.1
+  macos: circleci/macos@2.2.0
+
+version: 2.1
+
+jobs:
+  linux64:
+    docker:
+      - image: cimg/base:stable    # See https://circleci.com/developer/images/image/cimg/base
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: |
+            tempProjectVersion="$(cat ProjectVersion.txt)"
+            echo "export PROJECT_VERSION='$tempProjectVersion'" >> $BASH_ENV
+            sudo apt-get update
+            sudo apt-get install -y software-properties-common
+            curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+            sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+            sudo apt-add-repository -y ppa:ubuntu-toolchain-r/test
+            sudo apt-get update
+            sudo apt-get install -y cmake g++-10 libstdc++-10-dev \
+                libasound2-dev libjack-jackd2-dev \
+                ladspa-sdk \
+                libfreetype6-dev \
+                libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+                libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+                libglu1-mesa-dev mesa-common-dev
+      - run:
+          name: "Create CMake project for test units"
+          command: cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' .
+      - run:
+          name: "Build test units"
+          command: cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+      - run:
+          name: "Create CMake project"
+          command: cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' .
+      - run:
+          name: "Build main project"
+          command: |
+            PROJECT_VERSION="$(cat ProjectVersion.txt)"
+            cmake --build . --target DisarkMain
+      - run:
+          name: "Package"
+          command: cmake --build . --target package
+      - run:
+          name: "Package and upload ZIP"
+          command: ./.circleci/upload.sh Disark.zip Disark-$CIRCLE_JOB-$PROJECT_VERSION.zip $PROJECT_VERSION $CIRCLE_JOB
+
+  linux64arm:
+    machine:
+      image: ubuntu-2004:current    # Using 2004 because it contains libssl. The 2204 does not.
+    resource_class: arm.medium
+    environment:
+      CC: gcc-10
+      CXX: g++-10
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: |
+            tempProjectVersion="$(cat ProjectVersion.txt)"
+            echo "export PROJECT_VERSION='$tempProjectVersion'" >> $BASH_ENV
+            sudo apt-get update
+            sudo apt-get install -y software-properties-common
+            curl -s https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+            sudo apt-add-repository -y 'deb https://apt.kitware.com/ubuntu/ focal main'
+            sudo apt-get update
+            sudo apt-get install -y cmake g++-10 libstdc++-10-dev \
+                libasound2-dev libjack-jackd2-dev \
+                ladspa-sdk \
+                libfreetype6-dev \
+                libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev \
+                libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+                libglu1-mesa-dev mesa-common-dev
+      - run:
+          name: "Create CMake project for test units"
+          command: cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' .
+      - run:
+          name: "Build test units"
+          command: cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+      - run:
+          name: "Create CMake project"
+          command: cmake -DCMAKE_BUILD_TYPE=Release -G 'CodeBlocks - Unix Makefiles' .
+      - run:
+          name: "Build main project"
+          command: |
+            PROJECT_VERSION="$(cat ProjectVersion.txt)"
+            cmake --build . --target DisarkMain
+      - run:
+          name: "Package"
+          command: cmake --build . --target package
+      - run:
+          name: "Package and upload ZIP"
+          command: ./.circleci/upload.sh Disark.zip Disark-$CIRCLE_JOB-$PROJECT_VERSION.zip $PROJECT_VERSION $CIRCLE_JOB
+
+
+
+  macosx:
+    macos:
+      xcode: 15.2.0   # See https://circleci.com/docs/using-macos
+    environment:
+      CC: clang
+      CXX: clang++
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: brew install cmake llvm      # https://formulae.brew.sh/formula/llvm
+      - run:
+          name: "Create CMake project"
+          command: cmake -G Xcode .
+      - run:
+          name: "Build test units"
+          command: cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: ./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+      - run:
+          name: "Build main project"
+          command: cmake --build . --config Release --target DisarkMain
+      - run:
+          name: "Package"
+          command: cmake --build . --config Release --target package
+      - run:
+          name: "Upload ZIP to FTP"
+          command: |
+            PROJECT_VERSION="$(cat ProjectVersion.txt)"
+            ./.circleci/upload.sh Disark.zip Disark-$CIRCLE_JOB-$PROJECT_VERSION.zip $PROJECT_VERSION $CIRCLE_JOB
+
+
+
+
+  windows:
+    executor: win/default
+    steps:
+      - checkout
+      - run:
+          name: "Install software"
+          command: choco install -y --no-progress cmake nsis
+      # Not using the latest VS17 2022, because the user won't probably have it, will have to install the right redistributable.
+      - run:
+          name: "Create CMake project"
+          command: C:\Program` Files\CMake\bin\cmake -G 'Visual Studio 16 2019' -A Win32 .
+      - run:
+          name: "Build test units"
+          command: C:\Program` Files\CMake\bin\cmake --build . --config Debug --target TestUnits
+      - run:
+          name: "Run test units"
+          command: testUnits\TestUnits_artefacts\Debug\TestUnits -r xml -d yes --order lex
+      - run:
+          name: "Build main project"
+          command: C:\Program` Files\CMake\bin\cmake --build . --config Release --target DisarkMain
+      - run:
+          name: "Package"
+          command: C:\Program` Files\CMake\bin\cmake --build . --config Release --target package
+      - run:
+          name: "Upload ZIP to FTP"
+          command: |
+            $PROJECT_VERSION = Get-Content .\ProjectVersion.txt -Raw
+            ./.circleci/upload.sh Disark.zip Disark-$env:CIRCLE_JOB-$PROJECT_VERSION.zip $PROJECT_VERSION $env:CIRCLE_JOB
+
+
+
+
+
+workflows:
+  version: 2
+  build-all:
+    jobs:
+      - linux64
+      - macosx
+      - windows
+      - linux64arm
+
+      #    requires:
+      #      - windows
+      #- macos:
+      #    requires:
+      #      - linux64

@@ -1,0 +1,83 @@
+Some raw info about cmake/cpack.
+
+
+Used by CLion:
+
+For DEBUG:
+- Go to a folder where the build data will be generated.
+- Create project:
+    cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" <path to the top CMakeLists.txt> (=".." probably if inside a build folder).
+    cmake -DCMAKE_BUILD_TYPE=Debug -G Xcode <path to the top CMakeLists.txt>            --> IGNORED on XCode. HOW TO PRODUCE A RELEASE?
+- Build:
+    cmake --build /home/julien/Documents/dev/at2/secondRepo/FirstCmake/cmake-build-debug --target GuiAppExample222 -- -j 8
+    cmake --build . --target GuiAppExample222 -- -j 8
+    XCODE RELEASE?
+    cmake --build . --target GuiAppExample222 --config Release
+
+
+DEBUG LINUX:
+    cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" .
+    cmake --build ./cmake-build-debug --target MainSoftware -- -j 6
+
+RELEASE MAC:
+    cmake -G Xcode .
+    cmake --build . --target MainSoftware --config Release -j 8     Works????
+
+WIN:
+    cmake -G "Visual Studio 17 2022" -A Win32 .
+
+
+
+CPACK on Linux:
+---------------------------
+To test ZIP...
+cp cpack/usedConfig_zip.template.cmake cpack/usedConfig.cmake
+OR DEB/RPM...
+cp cpack/usedConfig_not_zip.template.cmake cpack/usedConfig.cmake
+
+cmake --build cmake-build-debug/ --target package
+
+It will be installed in /opt/arkostracker3
+To install DEB:
+sudo dpkg -i ArkosTracker.deb
+To remove DEB:
+sudo dpkg -r arkostracker3
+
+CPACK on Mac:
+---------------------------
+https://www.ferranpujolcamins.cat/2020/11/27/Notes-CMake-macOS-bundle.html
+
+cmake --build cmake-build-debug/ --target package
+
+If app not signed:
+xattr -cr <exe>
+
+CPACK on Windows:
+---------------------------
+set GENERATE_ZIP=true       COMMAND LINE
+set GENERATE_ZIP=           To unset
+echo %GENERATE_ZIP%
+
+$Env:GENERATE_ZIP="true"    POWERSHELL
+$Env:GENERATE_ZIP
+$Env:GENERATE_ZIP=""        To unset
+
+cp .\cpack\usedConfig_zip.template.cmake .\cpack\usedConfig.cmake
+cp .\cpack\usedConfig_not_zip.template.cmake .\cpack\usedConfig.cmake
+
+cmake -G "Visual Studio 17 2022" -A Win32 .
+
+cmake --build . --target package
+
+Desktop icons are cached on Windows!!!
+https://neosmart.net/wiki/clear-icons-cache/
+
+
+----------------------
+Disark:
+mkdir buildcustom
+cd buildcustom
+
+cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" ..
+cmake --build . --target DisarkMain -- -j 6
+cmake --build . --target package

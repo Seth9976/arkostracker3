@@ -1,0 +1,110 @@
+George Nakos <ggnkua@gmail.com>
+Date:	Mon, 13 Apr 2026 12:59:41 +0300 (13/04/26 11:59:41)
+
+1. Grabs the frequency low and high registers (0-1 for channel A, 2-3 for channel B, 4-5 for channel C). That gives us a 8+4=12 bit value. Its range is from 0x0 to 0x1000
+2. If the value is lower than 0x10 then it refuses to do SID (makes sense, as it's too low)
+3. Then it start reading the first column from TIMER_TAB. If the value is less than 0x68, then use data from the first line. If the value is less than 0x105 then use data from the second line. etc.
+
+;First word: Amplitude Period (0 -> 0x1000). If <#10, don't do SID.
+;Second word: MFP predivisor value in decimal.
+;Third word: MFP divisor in MFP notation
+TIMER_TAB:
+    DC.W $0068,$0004,$0001  ;
+    DC.W $0105,$000A,$0002  ;
+    DC.W $01A2,$0010,$0003  ;
+    DC.W $051A,$0032,$0004  ;
+    DC.W $0688,$0040,$0005  ;
+    DC.W $0A35,$0064,$0006  ;
+    DC.W $0EEF,$00C8,$0007  ;
+    DC.W $1000,$00C8,$0007  ;
+    DC.W $FFFF
+
+
+4. (((160822/(second value, divisor))*(amplitude value))+$2000)<<2)>>16 and you've got the value of the MFP data register (i.e. period, or countdown value).
+
+Period of #0123
+--> Line selected: 
+DC.W $01A2,$0010,$0003
+
+(((160822/(16.3)*#1a2)+$2000)<<2)>>16
+(((160822/(16.3) * 418) + 8192) * 4) / 65536 = 252.217 = MFP period.
+
+2457600 / 16 / 252.217 = 608.99 hz :)
+
+
+------------------------------------------------------------
+
+> Let's imagine my period is $0123. So $123 is smaller than #1a2, so I
+> select the third line:
+> DC.W $01A2,$0010,$0003
+
+> So the MFP predivisor is #10, and the amplitude value is #1a2. Divisor
+> is 3.
+
+Checks out.
+
+I'll write what the code does:
+
+160822/#10 = #62743
+
+Division on the 68000 is its own thing, the value above is #2743 for result (lower 16 bits) and #0006 for remainder (upper 16 bits).
+
+Multiplication is also 16bits x 16bits, so all the upper 16 bits are discarded. And it produces a 32bit result. So we do
+
+#2743*#123 = #2ca129
+
+#2ca129+#2000 = #2cc129
+
+#2cc129 << 2 = #b304a4
+
+#b304a4 >> 16 = #b3
+
+So... the timer value is #b3, and the value to write to the predevisor is 3 (3rd column from your selected row)
+
+And the amplitude value is what the player will provide.
+
+
+
+
+
+Let me quote from the actual MFP manual. The two registers I'm referring to are:
+
+TACR           Timer A control register
+
+$FFFA19|byte |Timer A Control                         BIT 4 3 2 1 0|R/W
+       |     |Reset (force output low) -------------------' | | | ||
+       |     +----------------------------------------------+-+-+-++
+       |     |0000 - Timer stop, no function executed              |
+       |     |0001 - Delay mode, divide by 4                       |
+       |     |0010 -     :           :     10                      |
+       |     |0011 -     :           :     16                      |
+       |     |0100 -     :           :     50                      |
+       |     |0101 -     :           :     64                      |
+       |     |0110 -     :           :     100                     |
+       |     |0111 - Delay mode, divide by 200                     |
+       |     |1000 - Event count mode                              |
+       |     |1xxx - Pulse extension mode, divide as above         |
+
+TADR           Timer A data register
+$FFFA1F|byte |Timer A Data                                         |R/W
+
+There is another set for timer B (that controls the second channel typically), the values are identical to timer A.
+
+Finally timers C and D have a small peculiarity in which they share the same address for control:
+
+$FFFA1D|byte |Timer C & D Control                 BIT 6 5 4 . 2 1 0|R/W
+       |     |                                        Timer   Timer|
+       |     |                                          C       D  |
+       |     +-----------------------------------------------------+
+       |     |000 - Timer stop                                     |
+       |     |001 - Delay mode, divide by 4                        |
+       |     |010 -      :           :    10                       |
+       |     |011 -      :           :    16                       |
+       |     |100 -      :           :    50                       |
+       |     |101 -      :           :    64                       |
+       |     |110 -      :           :    100                      |
+       |     |111 - Delay mode, divide by 200                      |
+
+$FFFA25|byte |Timer D Data                                         |R/W
+
+In order to be system friendly we don't touch timer C usually (it's the system timer tick) and instead use timer D. As you can see they have fewer bits as they are less capable of timers, but for our use case the 3 bits are enough.

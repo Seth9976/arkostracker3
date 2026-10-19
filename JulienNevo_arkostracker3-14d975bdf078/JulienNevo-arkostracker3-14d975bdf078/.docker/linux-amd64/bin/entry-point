@@ -1,0 +1,70 @@
+#!/bin/bash -eo pipefail
+
+export CMAKE_BUILD_PARALLEL_LEVEL=$(nproc --all)
+export CC=gcc
+export CXX=g++
+
+if [[ "$#" -gt 1 ]]; then
+	echo "Usage: ${0##*/} [release|debug|test|clean]"
+	exit 1
+fi
+
+DOCKER_TARGET="MainSoftware SongToAkg SongToAkm SongToAky SongToEvents SongToRaw SongToWav SongToYm SongToVgm SongToSoundEffects"
+DOCKER_DIR_RELEASE=".docker/linux-amd64/release"
+DOCKER_DIR_DEBUG=".docker/linux-amd64/debug"
+
+compressReleaseFile() {
+	strip $1
+	upx -q $1 -o "$DOCKER_DIR_RELEASE/$(basename $1)"
+}
+
+packageRelease() {
+	rm   -rf $DOCKER_DIR_RELEASE
+	mkdir -p $DOCKER_DIR_RELEASE
+	compressReleaseFile source/MainSoftware_artefacts/Release/ArkosTracker3
+	for filepath in source/commandLineTools/*/*_artefacts/Release/*; do
+		compressReleaseFile $filepath;
+	done
+	echo -e "\n 📂 All executables available in $DOCKER_DIR_RELEASE\n"
+}
+
+packageDebug() {
+	mkdir -p $DOCKER_DIR_DEBUG
+	cp source/MainSoftware_artefacts/Debug/ArkosTracker3 $DOCKER_DIR_DEBUG/ArkosTracker3
+	for filepath in source/commandLineTools/*/*_artefacts/Debug/*; do
+		cp $filepath "$DOCKER_DIR_DEBUG/$(basename $filepath)";
+	done
+	echo -e "\n 📂 All executables available in $DOCKER_DIR_DEBUG\n"
+}
+
+case "$1" in
+	"cicd")
+		echo -e "\nValidating CICD configuration\n"
+		export CIRCLECI_CLI_TELEMETRY_OPTOUT=1
+		circleci version
+		circleci config validate
+		;;
+	"clean")
+		echo -e "\nDeleting build artefacts\n"
+		cmake --build . --target clean
+		;;
+	"test")
+		echo -e "\nBuilding and running unit-tests\n"
+		cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' .
+		cmake --build . --config Debug --target TestUnits
+		./testUnits/TestUnits_artefacts/Debug/TestUnits -r xml -d yes --order lex
+		;;
+	"debug")
+		echo -e "\nCompiling a debug-build\n"
+		cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" .
+		cmake --build . --target $DOCKER_TARGET
+		packageDebug
+		;;
+	*)
+		echo -e "\nCompiling a release-build\n"
+		cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" .
+		cmake --build . --target $DOCKER_TARGET
+		packageRelease
+		;;
+esac
+

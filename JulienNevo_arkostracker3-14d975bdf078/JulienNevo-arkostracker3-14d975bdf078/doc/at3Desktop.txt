@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Arkos Tracker 3
+StartupWMClass=Arkos Tracker
+Icon=/opt/arkostracker3/ArkosTracker3.png
+Categories=Music
+Exec=/opt/arkostracker3/ArkosTracker3
+Terminal=false

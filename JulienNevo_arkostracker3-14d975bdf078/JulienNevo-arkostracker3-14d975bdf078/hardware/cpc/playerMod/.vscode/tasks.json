@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildRasm",
+            "group": "build",
+            "command": "rasm",
+            "type": "shell",
+            "args": [
+                "-ob", "generated/main.bin",
+
+                // Generates snapshots.
+                "-sb",
+                "-ss",
+                "-oi", "generated/mod.sna",
+
+                "-sw",
+                "-sa",
+                "-os", "generated/symbols.txt",
+        
+                "-twe",
+        
+                "-xr",
+                "sources/tester/PlayerMODTester_CPC.asm"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "clear": true,
+                "showReuseMessage": false,
+            },
+            "problemMatcher": "$errmatcher-rasm"
+        }
+    ]
+}

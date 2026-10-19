@@ -1,0 +1,8 @@
+- MUST not be under Wayland! Logout > wheel > use Gnome Classic.
+- Use SimpleScreenRecorder
+- Use the TipsAT3 profile (320x200, 5 fps).
+- Windows+R to start/stop.
+- No editing! Software won't work well (glitches...)
+- Use the convert bash:
+	bash convertMp4ToZippedFrames.sh myvideo		--> NO EXTENSION
+- The generated zip can be used in TipsController.

@@ -1,0 +1,1 @@
+This folder is where Jenkins will produce the output release file. A dummy file is here to force git to keep it.

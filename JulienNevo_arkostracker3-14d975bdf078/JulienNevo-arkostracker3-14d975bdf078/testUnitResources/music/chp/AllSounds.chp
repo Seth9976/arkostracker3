@@ -1,0 +1,34 @@
+CHIPNSFX format
+Song title
+Description
+===
+50/6 +00
+#00+00 #01+00 #02+00
+===
+#00 D-5:05 D-5:05 D-8:0B D-5:05 D-8:0C D-5:0C D-6:0C D-6:0D D-6:0D D-5:0D D-5:0E D-5:10 D-5:0E D-5:0F D-5:10
+#01 ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. D-5:0C ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:..
+#02 D-5:02 ...:.. ...:.. ...:.. ...:.. ===:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:.. ...:..
+===
+:01 FFFF 0000 000 Piano
+:02 0101 0000 000 Volume up vslow
+:03 0105 0000 000 Volume up slow
+:04 0110 0000 000 Volume up fast
+:05 FFFF 0000 1F7 Vibrato pos slow
+:06 FFFF 0000 14F Vibrato neg fast
+:07 FFFF 0000 141 Vibrato pos one
+:08 FFFF 0000 142 Vibrato pos two
+:09 FFFF 0000 108 Dephase hack
+:0A FFFF 0000 1F0 Up per f frames
+:0B FFFF 0000 110 Up per frame
+:0C FFFF 0000 138 Down per 3 frame
+:0D FFFF 0000 101 Pitch Up
+:0E FFFF 0000 109 Pitch down
+:0F FFFF 0000 103 Pitch up fast
+:10 FFFF 0000 10B Pitch down fast
+:11 FF78 0000 000 Deflektor bass
+:12 0168 0000 000 Volume up once
+:13 FF7E 2080 0FF One noise and looping once arp
+:14 DFEE 0000 10C Fernandez drum pitch down
+:15 BF00 0000 10B Fernandez Drop
+:16 BF00 0000 121 Fernandez vib
+===
